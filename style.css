@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url('./img/bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'El Messiri', sans-serif;
+}
+
+#home {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+h1.branding {
+  font-family: 'Elsie Swash Caps', cursive;
+  font-size: 48px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+p {
+  text-align: center;
+}
+
+.intro p {
+  font-size: 40px;
+  letter-spacing: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+navbar {
+  padding: 20px 0;
+}
+
+navbar a {
+  color: black;
+  display: block;
+  text-align: center;
+  min-width: 50px;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0 20px;
+}
+
+navbar a:hover {
+  border-bottom: 1px solid black;
+}
+
+ul.nav-links {
+  display: flex;
+}
+
+.social-links {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.social-links i {
+  font-size: 40px;
+  margin: 10px 0;
+}
+.social-1 {
+  left: 40px;
+}
+.social-2 {
+  right: 40px;
+}
+
+.fa-whatsapp {
+  color: #25d366;
+}
+.fa-linkedin {
+  color: #0e76a8;
+}
+.fa-instagram {
+  color: #8a3ab9;
+}
+.fa-phone-alt {
+  color: #5ee153;
+}
+
+.fa-github-alt {
+  color: #171515;
+}
+
+.fa-envelope {
+  color: #db4437;
+}
